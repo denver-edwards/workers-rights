@@ -7,17 +7,24 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("../public/fonts/OpenSans-VariableFont.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("../public/fonts/OpenSans-Italic-VariableFont.ttf");
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: OpenSans, sans-serif;
 }
 
 @layer utilities {

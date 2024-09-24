@@ -1,40 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a website that will allow workers all over the United States of America to know and understand their rights as a worker.
 
-## Getting Started
+There will be state by state specific explanations as well as federal.
+There will be an "Last Updated: "
 
-First, run the development server:
+# Layout
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Homepage:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Brief overview of workers' rights
+US Map Navigation w/ State
+Search function
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Main sections:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Federal rights
+State-specific rights
+Rights by category (e.g., wages, safety, discrimination)
+Resources and helplines
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### State-by-state section:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Interactive map or dropdown menu to select states
+Summary of key rights for each state
+Comparison tool between states
 
-## Learn More
+### Rights categories:
 
-To learn more about Next.js, take a look at the following resources:
+Minimum wage
+Overtime pay
+Workplace safety
+Anti-discrimination laws
+Leave policies (sick leave, family leave)
+Unionization rights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Resources:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+FAQ section
+Links to official government sites
+Contact information for relevant agencies
+Downloadable fact sheets
