@@ -12,7 +12,7 @@ export default function StateSelector() {
         <select
           name="states"
           id="states"
-          className="outline-none border-2 rounded-xl"
+          className="outline-none border-2 rounded-xl px-2"
         >
           <option value="">Select a state below...</option>
 
