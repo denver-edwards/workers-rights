@@ -48,7 +48,10 @@ export default function GetInvolved() {
             })}
           </div>
 
-          <div id="co-op" className="items-center justify-center flex flex-col">
+          <div
+            id="co-op"
+            className="items-center justify-center flex flex-col pb-10"
+          >
             <h3 className="text-2xl font-semibold mt-6 text-center text-gray-800">
               Start or Join a Worker Collective
             </h3>
@@ -81,8 +84,17 @@ export default function GetInvolved() {
               );
             })}
           </div>
+
+          <div id="share" className="items-center justify-center flex flex-col">
+            <h3 className="text-2xl font-semibold mt-6 text-center text-gray-800">
+              Share, Share, Share!
+            </h3>
+
+            <div className="py-2 px-6 font-thin text-sm"></div>
+          </div>
         </div>
       </main>
+
       <Footer />
     </div>
   );
@@ -104,29 +116,21 @@ const unionResources = [
   {
     name: "National Labor Relations Board - Unionization Process",
     link:
-      "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/employees/your-right-form-join-and-assist-union",
-  },
-  {
-    name: "American Federation of Teachers - 10 Steps to Forming a Union",
-    link: "https://www.aft.org/about/learn-about-aft/10-steps-forming-union",
+      "https://www.nlrb.gov/sites/default/files/attachments/pages/node-184/steps-to-forming-a-union-final-412.pdf",
   },
 ];
 
 const collectiveResources = [
   {
-    name: "U.S. Federation of Worker Cooperatives - Resources",
-    link: "https://www.usworker.coop/starting-a-co-op/",
+    name: "Cooperative Development Institute - Co-op Start-up Guide",
+    link: "https://cdi.coop/resource-center/co-op-start-up-guide/",
   },
   {
-    name: "Cooperative Development Institute - Start a Co-op",
-    link: "https://cdi.coop/start-a-co-op/",
-  },
-  {
-    name: "Democracy at Work Institute - Start a Co-op",
+    name: "Democracy at Work Institute - Resource Library",
     link: "https://institute.coop/resources/starting-worker-cooperative",
   },
   {
-    name: "Fifty by Fifty - How to Start a Worker Cooperative",
-    link: "https://fifty.coop/how-to-start-a-worker-cooperative/",
+    name: "U.S. Federation of Worker Cooperatives - Resources for Startups",
+    link: "https://www.usworker.coop/clinic/startups/",
   },
 ];

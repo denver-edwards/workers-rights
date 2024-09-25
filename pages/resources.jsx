@@ -5,6 +5,7 @@ export default function Resources() {
   return (
     <div>
       <Header />
+
       <main className="flex flex-col items-center justify-center py-10">
         <div className="px-4 w-4/5">
           <h1 className="text-5xl font-bold mb-2 text-center text-gray-800">
@@ -103,6 +104,27 @@ export default function Resources() {
             })}
           </div>
 
+          <div className="items-center justify-center flex flex-col">
+            <h3 className="text-2xl font-semibold my-6 text-center text-gray-800">
+              Some Infographics{" "}
+            </h3>
+
+            {infographics.map((resource, index) => {
+              return (
+                <div key={index} className="py-1">
+                  <a
+                    href={resource.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:text-blue-900 hover:underline"
+                  >
+                    {resource.name}
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+
           <div className="font-thin text-sm pt-12">
             <p>
               These additional resources cover a range of sources, from labor
@@ -122,7 +144,7 @@ export default function Resources() {
 const federalResources = [
   {
     name: "U.S. Department of Labor - Workers' Rights",
-    link: "https://www.dol.gov/agencies/whd/workers-rights",
+    link: "https://www.dol.gov/agencies/whd/workers",
   },
   {
     name: "Occupational Safety and Health Administration (OSHA)",
@@ -152,15 +174,15 @@ const advocacyResources = [
     link: "https://nwlc.org/",
   },
   {
-    name: "ACLU Workers' Rights Project",
-    link: "https://www.aclu.org/issues/workers-rights",
+    name: "ACLU Workers' Know Your Rights",
+    link: "https://www.aclu.org/know-your-rights",
   },
 ];
 
 const educationResources = [
   {
-    name: "The Balance Careers - Workers' Rights",
-    link: "https://www.thebalancecareers.com/workers-rights-1918253",
+    name: "A Better Balance - Rights Hub",
+    link: "https://www.abetterbalance.org/know-your-rights/",
   },
   {
     name: "Workplace Fairness - Employee Rights",
@@ -168,7 +190,7 @@ const educationResources = [
   },
   {
     name: "FindLaw - Employee Rights",
-    link: "https://www.findlaw.com/employment/employee-rights.html",
+    link: "https://www.findlaw.com/employment.html",
   },
   {
     name: "Nolo - Employee Rights",
@@ -188,5 +210,21 @@ const legalResources = [
   {
     name: "National Association of Consumer Advocates",
     link: "https://www.consumeradvocates.org/",
+  },
+];
+
+const infographics = [
+  {
+    name: "Union Membership in the U.S. (2020)",
+    link: "https://cdn.statcdn.com/Infographic/images/normal/17146.jpeg",
+  },
+  {
+    name: "American Support for Unions",
+    link: "https://cdn.statcdn.com/Infographic/images/normal/19196.jpeg",
+  },
+  {
+    name: "Steps to Forming a Union",
+    link:
+      "https://www.nlrb.gov/sites/default/files/attachments/pages/node-184/steps-to-forming-a-union-final-412.pdf",
   },
 ];
