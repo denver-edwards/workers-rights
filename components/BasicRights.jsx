@@ -2,9 +2,9 @@ import InfoCard from "@/components/InfoCard";
 
 export default function BasicRights() {
   return (
-    <div class="flex flex-col bg-white m-auto p-auto">
-      <div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
-        <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+    <div className="flex flex-col bg-white m-auto p-auto">
+      <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
+        <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
           {rightsData.map((right, index) => {
             return (
               <InfoCard
