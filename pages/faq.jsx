@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ArrowDownIcon from "@patternfly/react-icons/dist/esm/icons/arrow-down-icon";
+import { ArrowDown } from "lucide-react";
 
 export default function FAQ() {
   const [openedDiv, setOpenedDiv] = useState();
@@ -23,7 +23,7 @@ export default function FAQ() {
             >
               <p className="transition-all rounded-lg py-1 px-4 bg-gray-200 hover:bg-gray-400">
                 {q.question}{" "}
-                <ArrowDownIcon className="inline mb-[.5px] text-gray-700" />
+                <ArrowDown className="inline mb-[.5px] text-gray-700" />
               </p>
               {workerRightsFAQ[openedDiv] === q ? (
                 <p className="px-4 pt-2">{q.answer}</p>
