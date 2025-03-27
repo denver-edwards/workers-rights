@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Worker's Rights in the United States</title>
+        <title>Worker&apos;s Rights in the United States</title>
       </Head>
       <Component {...pageProps} />
     </>

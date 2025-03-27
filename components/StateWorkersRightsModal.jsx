@@ -8,7 +8,7 @@ export default function StateWorkersRightsModal({ stateAbbreviation }) {
   if (!stateData)
     return (
       <div className="p-4 bg-red-50 text-red-700 rounded-lg border border-red-200">
-        No workers' rights information found for this state.
+        No workers&apos; rights information found for this state.
       </div>
     );
 
@@ -29,7 +29,7 @@ export default function StateWorkersRightsModal({ stateAbbreviation }) {
       {/* Header */}
       <div className="border-b pb-4">
         <h1 className="text-3xl font-bold text-gray-800">
-          {stateData.stateName} Workers' Rights
+          {stateData.stateName} Workers&apos; Rights
         </h1>
         <p className="text-gray-600 mt-1">
           Comprehensive guide to employment laws and regulations

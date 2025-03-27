@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { USAMap, USAStateAbbreviation } from "@mirawision/usa-map-react";
+import { USAMap } from "@mirawision/usa-map-react";
 import StateWorkersRightsModal from "@/components/StateWorkersRightsModal";
 
 export default function StateSelector() {
@@ -53,7 +53,7 @@ export default function StateSelector() {
             <div className="flex justify-between items-start mb-4">
               <h2 className="text-xl font-bold">
                 {usStates.find((s) => s.abbreviation === selectedState)?.name}{" "}
-                Workers' Rights
+                Workers&apos; Rights
               </h2>
               <button
                 onClick={closeModal}

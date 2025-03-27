@@ -10,10 +10,10 @@ export default function Home() {
       <main>
         <div className="mx-auto px-4 py-8">
           <h1 className="text-5xl font-bold mb-2 text-center text-gray-800">
-            Basic Workers' Rights
+            Basic Workers&apos; Rights
           </h1>
           <h2 className="text-xl font-thin italic mb-6 text-center text-gray-900">
-            You should know what you're entitled to as a worker
+            You should know what you&apos;re entitled to as a worker
           </h2>
 
           <BasicRights />

@@ -14,10 +14,10 @@ export default function Resources() {
 
           <div className="py-2 font-thin text-sm">
             These government websites provide detailed information on various
-            workers' rights, including minimum wage, overtime, workplace safety,
-            anti-discrimination laws, and more. They can serve as authoritative
-            sources for users to learn about their rights and find additional
-            resources.
+            workers&apos; rights, including minimum wage, overtime, workplace
+            safety, anti-discrimination laws, and more. They can serve as
+            authoritative sources for users to learn about their rights and find
+            additional resources.
           </div>
 
           <div className="items-center justify-center flex flex-col">
@@ -43,7 +43,7 @@ export default function Resources() {
 
           <div className="items-center justify-center flex flex-col">
             <h3 className="text-2xl font-semibold my-6 text-center text-gray-800">
-              Labor Unions & Workers' Advocacy Organizations
+              Labor Unions & Workers&apos; Advocacy Organizations
             </h3>
 
             {advocacyResources.map((resource, index) => {
@@ -130,7 +130,7 @@ export default function Resources() {
               These additional resources cover a range of sources, from labor
               unions and advocacy groups to educational websites and legal aid
               services. They can provide users with a more diverse set of
-              information, support, and guidance on workers' rights.
+              information, support, and guidance on workers&apos; rights.
             </p>
           </div>
         </div>
