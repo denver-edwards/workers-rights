@@ -8,11 +8,11 @@ export default function StateSelector() {
 
   return (
     <div className="px-20 py-10">
-      <div>
+      <div className="pb-5">
         <select
           name="states"
           id="states"
-          className="outline-none border-2 rounded-xl px-2"
+          className="outline-none border-2 border-red-300 rounded-xl px-2"
         >
           <option value="">Select a state below...</option>
 

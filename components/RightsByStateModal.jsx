@@ -15,7 +15,6 @@ export default function StateWorkersRights({ stateAbbreviation }) {
       <p>Rate: {stateData.rightsCategories.minimumWage.rate}</p>
       <p>Details: {stateData.rightsCategories.minimumWage.details}</p>
       <a href={stateData.rightsCategories.minimumWage.link}>Official Source</a>
-      {/* Similar sections for other categories */}
     </div>
   );
 }
