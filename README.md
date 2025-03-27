@@ -22,7 +22,6 @@ Resources and helplines
 
 Interactive map or dropdown menu to select states
 Summary of key rights for each state
-Comparison tool between states
 
 ### Rights categories:
 
